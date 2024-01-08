@@ -1,0 +1,62 @@
+.container{
+    border: 2px solid blue;
+    width:500px;
+    position: absolute;
+   
+}
+#circle{
+   height: 300px;
+   width: 300px;
+    background-color: aqua;
+    border-radius: 150px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+#circle-1{
+height: 250px;
+width: 250px;
+background-color: rgb(63, 63, 3);
+border-radius: 120px;
+position: absolute;
+}
+#circle-2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(43, 32, 95);
+    border-radius: 100px;
+    position: absolute;
+    }
+    #circle-3{
+        height: 150px;
+        width: 150px;
+        background-color: rgb(170, 77, 120);
+        border-radius: 70px;
+        position: absolute;
+        }
+        #circle-4{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(52, 133, 69);
+            border-radius: 50px;
+            position: absolute;
+            }
+            button{
+                display: grid;
+               margin: 14px;
+
+
+grid-template-rows: repeat(1,1fr);
+
+            }
+#color,#color-1,#color-2,#color-3,#color-4,#reset{
+    border-radius: 25px;
+
+  margin: 12px;
+
+    box-shadow: blue;
+    font-weight: 200;
+    background-color: rgb(91, 97, 91);
+}
